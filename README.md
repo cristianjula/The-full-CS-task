@@ -12,6 +12,19 @@ Follow the tasks below step by step, and make sure to explore each area thorough
 
 ## Topics
 
+
+### Forking repository
+
+1. Fork this repository: Click on the "Fork" button at the top right to create a copy of this repository in your own GitHub account.
+2. Clone your fork: Clone your forked repository locally to start working on the tests. You can do this by running:
+git clone https://github.com/your-username/your-forked-repo.git
+
+3. Create a Feature Branch: Inside your local copy, create a new branch for your work. Use a descriptive branch name, like feature/test-results
+4. Once your tests are complete, push your feature branch to your forked repository on GitHub:
+git push origin feature/test-results
+5. Submit a Pull Request (PR):
+Go to your forked repository on GitHub, and you should see an option to submit a Pull Request. Click on it and select feature/test-results as the branch you want to merge into the original repository.
+
 ### 1. Containerization
 
 **Objective**: Containerize the application to ensure consistent deployment across different environments.
