@@ -13,7 +13,7 @@ Follow the tasks below step by step, and make sure to explore each area thorough
 ## Topics
 
 
-### Forking repository
+### 1. Forking repository
 
 1. Fork this repository: Click on the "Fork" button at the top right to create a copy of this repository in your own GitHub account.
 2. Clone your fork: Clone your forked repository locally to start working on the tests. You can do this by running:
@@ -25,7 +25,7 @@ git push origin feature/test-results
 5. Submit a Pull Request (PR):
 Go to your forked repository on GitHub, and you should see an option to submit a Pull Request. Click on it and select feature/test-results as the branch you want to merge into the original repository.
 
-### 1. Containerization
+### 2. Containerization
 
 **Objective**: Containerize the application to ensure consistent deployment across different environments.
 
@@ -38,7 +38,7 @@ Go through the tasks below to achieve the topic objective.
 5. Use environment variables to securely manage configuration settings.
 
 
-### 2. Continuous Integration (CI)
+### 3. Continuous Integration (CI)
 
   **Objective**: Automate the testing and build processes to ensure code quality and catch issues early.
 
@@ -52,7 +52,7 @@ Go through the tasks below to achieve the topic objective.
 3. Implement branch-specific workflows, such as different CI steps for develop and main branches.
 4. Include a security scan for the Docker image. (Use tools like Trivy or Clair for Docker image vulnerability scanning)
 
-### 3. Infrastructure as Code (IaC)
+### 4. Infrastructure as Code (IaC)
 
   **Objective**: Use Terraform to automate the provisioning of AWS resources.
 
@@ -63,7 +63,7 @@ Go through the tasks below to achieve the topic objective.
 4. Manage state files remotely using an S3 bucket with state locking via DynamoDB.
 5. Ensure the Terraform scripts are modular and re-usable.
 
-### 4.  Continuous Deployment (CD)
+### 5.  Continuous Deployment (CD)
 
   **Objective**: Automate the deployment process to make application updates seamless and reliable.
 
@@ -75,7 +75,7 @@ Extend the GitHub Actions workflow to:
 3. Implement blue-green or rolling deployment strategies to prevent downtime during updates. (Use an Application Load Balancer (ALB) in AWS to enable blue-green deployments by switching traffic between two environments).
 4. Monitor deployment and application health with AWS CloudWatch, setting up alerts for critical events. Consider using CloudWatch alarms for monitoring EC2 instance CPU usage, memory, and application logs.
 
-### 5. Logging and Monitoring with ELK Stack
+### 6. Logging and Monitoring with ELK Stack
 
 **Objective**: Collect, centralize, and visualize logs from Docker containers to enhance monitoring and troubleshooting.
 
@@ -97,7 +97,7 @@ Go through the tasks below to achieve the topic objective.
 3. Apply basic retention policies in Elasticsearch to manage log storage and avoid excessive data buildup.
 
 
-### 6.  Security Considerations
+### 7.  Security Considerations
 
  **Objective**: Apply security best practices throughout the project.
 
