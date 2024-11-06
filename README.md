@@ -17,7 +17,7 @@ Follow the tasks below step by step, and make sure to explore each area thorough
 
 1. Fork this repository: Click on the "Fork" button at the top right to create a copy of this repository in your own GitHub account.
 2. Clone your fork: Clone your forked repository locally to start working on the tests. You can do this by running:
-git clone https://github.com/your-username/your-forked-repo.git
+git clone https://github.com/your-username/The-full-CS-task.git
 
 3. Create a Feature Branch: Inside your local copy, create a new branch for your work. Use a descriptive branch name, like feature/test-results
 4. Once your tests are complete, push your feature branch to your forked repository on GitHub:
