@@ -1,3 +1,8 @@
+# starting locally
+npm install
+npm start
+http://localhost:3000/
+
 # DevOps Task for CS Team.
 
 Welcome to the DevOps exercise! In this project, you will gain hands-on experience in:
