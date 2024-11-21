@@ -1,3 +1,6 @@
+![CS LAB ](https://github.com/user-attachments/assets/81d94704-075c-418c-92a6-5e9b82807992)
+
+
 # DevOps Task for CS Team.
 
 Welcome to the DevOps exercise! In this project, you will gain hands-on experience in:
